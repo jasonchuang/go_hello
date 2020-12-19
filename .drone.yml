@@ -1,0 +1,7 @@
+pipeline:
+   backend:
+     image: golang
+     commands:
+       - go build
+       - go run go run hello_world.go
+       - go test
